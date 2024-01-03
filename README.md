@@ -6,11 +6,11 @@ I have hosted this project online. Check out from here⬇️
 http://www.spotifysphere.freewebhostmost.com/
 
 ## Tech Stack used 👨‍💻
-1.HTML
-2.CSS
-3.JavaScript
+1. HTML
+2. CSS
+3. JavaScript
 
-I will soon upload this project via Github Pages.
+I will soon upload this project on Github Pages.
 
 ## Features🎶
 
