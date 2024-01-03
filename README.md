@@ -1,11 +1,16 @@
 # Ad-Free-Spotify 😃
-Welcome to the **Spotify 2.0!** This project aims to replicate the core functionalities of the popular music streaming service, Spotify. By using this player, you can explore, listen to, and manage your favorite music, just like you would on the original platform.
+Welcome to the **Spotify 2.0!** 
+This project aims to replicate the core functionalities of the popular music🎵 streaming service, Spotify. By using this player, you can explore, listen to, and manage your favorite music, just like you would on the original platform.
 
-## Tech Stack used
-HTML,CSS,JavaScript 👨‍💻
-
-I will soon upload this project via Github Pages. I have hosted this project online. Check out from here⬇️
+I have hosted this project online. Check out from here⬇️
 http://www.spotifysphere.freewebhostmost.com/
+
+## Tech Stack used 👨‍💻
+1.HTML
+2.CSS
+3.JavaScript
+
+I will soon upload this project via Github Pages.
 
 ## Features🎶
 
@@ -20,7 +25,7 @@ http://www.spotifysphere.freewebhostmost.com/
 ## How can user add new albums?🎵
 Clone repo to your local device. Under songs folder:
 Any user can add new folders as playlist. The folder should have:
-1. .cover.jpeg -> file for cover of the playlist
+1. cover.jpeg -> file for cover of the playlist
 2. info.json ->
 {
   "title":"<add album name here>"
