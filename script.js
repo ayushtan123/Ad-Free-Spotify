@@ -83,7 +83,7 @@ const playMusic = (track, pause = false) => {
 }
 
 async function displayAlbums() {
-    let a = await fetch(`/songs/`);
+    let a = await fetch(`/Spotify-2.0/songs/`);
     let response = await a.text();
 
     let div = document.createElement("div");
@@ -97,13 +97,13 @@ async function displayAlbums() {
         const e = array[index];
         // if(e.href!="http://127.0.0.1:5500/")console.log(e.href)
 
-        if (e.href.includes("/songs") && !e.href.includes(".htaccess") && e.href!="/") {
+        if (e.href.includes("/Spotify-2.0/songs") && !e.href.includes(".htaccess") && e.href!="/") {
             let folder = e.href.split("/").slice(-1)[0]
 
             // console.log(e.href.split("/").slice(-2)[0])
 
             //get the metadata of the folder
-            let a = await fetch(`/songs/${folder}/info.json`);
+            let a = await fetch(`/Spotify-2.0/songs/${folder}/info.json`);
             let response = await a.json();
             // console.log(response)
 
@@ -114,7 +114,7 @@ async function displayAlbums() {
                         stroke-linejoin="miter" fill="#141B34" />
                 </svg>
             </div>
-            <img src="/songs/${folder}/cover.jpeg" alt="not found" />
+            <img src="/Spotify-2.0/songs/${folder}/cover.jpeg" alt="not found" />
 
             <h2 style="font-weight: bold; font-size: 25px;">${response.title}</h2>
             <p style="color: #a7a7a7; font-size: 13px;">${response.description}</p>
@@ -126,7 +126,7 @@ async function displayAlbums() {
     //load the playlist whenever the card is clicked
     Array.from(document.getElementsByClassName("card")).forEach(e => {
         e.addEventListener("click", async item => {
-            songs = await getSongs(`songs/${item.currentTarget.dataset.folder}`)
+            songs = await getSongs(`Spotify-2.0songs/${item.currentTarget.dataset.folder}`)
             playMusic(songs[0])
 
         })
@@ -134,7 +134,7 @@ async function displayAlbums() {
 
 }
 async function main() {
-    await getSongs("songs/romantic")
+    await getSongs("Spotify-2.0/songs/romantic")
     // songs = await getSongs("songs/a")
 
     playMusic(songs[Math.floor(Math.random() * songs.length)], true)
