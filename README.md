@@ -5,6 +5,8 @@ This project aims to replicate the core functionalities of the popular music🎵
 I have hosted this project online. Check out from here⬇️
 http://www.spotifysphere.freewebhostmost.com/
 
+Github Pages Link(not working) : https://ayushtan123.github.io/Spotify-2.0/
+
 ## Tech Stack used 👨‍💻
 1. HTML
 2. CSS
