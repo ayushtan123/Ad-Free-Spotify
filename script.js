@@ -134,7 +134,7 @@ async function displayAlbums() {
 
 }
 async function main() {
-    await getSongs("songs/romantic/")
+    await getSongs("songs/romantic")
     // songs = await getSongs("songs/a")
 
     playMusic(songs[Math.floor(Math.random() * songs.length)], true)
