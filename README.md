@@ -2,6 +2,8 @@
 Welcome to the **Spotify 2.0!** 
 This project aims to replicate the core functionalities of the popular music🎵 streaming service, Spotify. By using this player, you can explore, listen to, and manage your favorite music, just like you would on the original platform.
 
+For the listeners, by a listener.🎙️🎧
+
 I have hosted this project online. Check out from here➡️
 http://www.spotifysphere.freewebhostmost.com/
 
@@ -35,6 +37,9 @@ Any user can add new folders as playlist. The folder should have:
 }
 3. music file in .mp3
 
+## Demo Video
+https://github.com/ayushtan123/Spotify-2.0/assets/121681555/e6f8710a-4334-4621-9446-6fc22f3e6055
+I have already added 60 songs on the server. 😃
 ## Note
 This is a responsive music player with innovative color scheme and improved user experience.
 Spotify's original website is not responsive on web. I have incorporated modern UX on this project.🎷
