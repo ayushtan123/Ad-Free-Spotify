@@ -21,6 +21,9 @@ http://www.spotifysphere.freewebhostmost.com/
 * **Seekbar**: Navigate through tracks effortlessly with the seekbar, allowing you to jump to specific parts of the song. 🎚️
 * **Song Duration**: View the duration of each song to better manage your listening time.
 
+![image](https://github.com/ayushtan123/Spotify-2.0/assets/121681555/778d4824-cb7d-48b4-8bcc-c2ec5960cbe0)
+
+
 ## How can user add new albums?🎵
 Clone repo to your local device. Under songs folder:
 Any user can add new folders as playlist. The folder should have:
