@@ -39,6 +39,7 @@ Any user can add new folders as playlist. The folder should have:
 
 ## Demo Video
 https://github.com/ayushtan123/Spotify-2.0/assets/121681555/e6f8710a-4334-4621-9446-6fc22f3e6055
+
 I have already added 60 songs on the server. 😃
 ## Note
 This is a responsive music player with innovative color scheme and improved user experience.
