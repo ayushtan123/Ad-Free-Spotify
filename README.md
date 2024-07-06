@@ -1,5 +1,5 @@
-# Ad-Free-Spotify 😃
-Welcome to the **Spotify 2.0!** 
+# Tunify 😃
+Welcome to the **Spotify 2.0!**  
 This project aims to replicate the core functionalities of the popular music🎵 streaming service, Spotify. By using this player, you can explore, listen to, and manage your favorite music, just like you would on the original platform.
 
 For the listeners, by a listener.🎙️🎧
