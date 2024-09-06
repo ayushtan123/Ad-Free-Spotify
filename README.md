@@ -1,4 +1,8 @@
-# Tunify 😃
+# Spotify Old (discarded) ❌
+**Note: This is an old repo, head to https://github.com/ayushtan123/Tunify for new changes.**
+
+<hr>
+
 Welcome to the **Spotify 2.0!**  
 This project aims to replicate the core functionalities of the popular music🎵 streaming service, Spotify. By using this player, you can explore, listen to, and manage your favorite music, just like you would on the original platform.
 
